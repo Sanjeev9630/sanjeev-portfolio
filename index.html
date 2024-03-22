@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="icon" type="image/png" href="img/Sanjlogo.jpg">
+    <title>Sanjeev Sharma</title>
+</head>
+<body>
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo">< Portfolio /></a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Experience</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION DESIGN -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>👋 Hi all  <i class="fa-solid fa-hand-wave"></i>, I'm</h3>
+            <h1>Sanjeev Sharma</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p >A passionate Backend Developer 🚀 having 1+ year of experience in building scalable and efficient Web applications with JavaScript / Nodejs  and some other cool libraries and frameworks.</p>
+            <div class="social-media">
+                <a href="https://github.com/Sanjeev9630" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/sanjeev-sharma-13681b292" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:shsanjeev2000@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel://919607747239"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/19jfQF7-mzyJSzlzvPX8Yfo0ye0TBT3lB/view" target="_blank" class="btn">My Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/sanjphoto.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION DESIGN -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/personcode.png" alt="">
+        </div>
+        <div class="about-content" style="line-height: 8px;">
+            <h2 class="heading">What I do<span></span></h2>
+
+                <p>⚡ Creating server-side web applications using Nodejs and other cool liberaries & frameworks.</p>
+                <p>⚡ Creating APIs for frontend developers as per the requirement.</p>
+                <p>⚡ Creating and maintain SQL or NoSQL database to be utilized in backend. </br></p>
+                <p>⚡ Integrating third party APIs for Amazon S3, SES, Twilio, SendGrid, Gmail, Google.</p>
+                <p>⚡ Deploying frontend and Backend Application on EC2 instance using Nginx.</p>   
+            <!-- <a href="#" class="btn">Read More</a> -->
+            <div style="display: flex;">
+                <ul style="font-size: 4rem; list-style-type:none; display: flex; margin: 10px;gap: 20px;">
+                    <!-- <li>
+                        <i class=" fab fa-html5"></i>
+                        <p>HTML</p>
+                    </li>
+                    <li>
+                        <i class="fab fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </li>
+                    <li>
+                        <i class="fab fa-sass"></i>
+                        <p>SASS</p>
+                    </li>
+                    <li>
+                        <i class="fab fa-react"></i>
+                        <p>REACT</p>
+                    </li> -->
+                    <li>
+                        <i class="fab fa-js"></i>
+                        <p>JS</p>
+                    </li>
+                    <li>
+                        <i class="fab fa-node"></i>
+                        <p>NODE</p>
+                    </li>
+                    <li>
+                        <i class="fab fa-npm"></i>
+                        <p>NPM</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-database"></i>
+                        <p>DATABASE</p>
+                    </li>
+                    <li>
+                        <i class="fab fa-aws"></i>
+                        <p>AWS</p>
+                    </li>
+                    <!-- <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                            <path fill="#212121" d="M23.697,37.56h1.18c0.84,0,1.631-0.392,2.139-1.061l7.485-9.847l7.485,9.847	c0.508,0.668,1.299,1.061,2.139,1.061h1.18L35.756,25l9.121-12h-1.18c-0.84,0-1.631,0.392-2.139,1.061L34.5,23.347l-7.059-9.287	C26.933,13.392,26.142,13,25.302,13h-1.18l9.121,12L23.697,37.56z"></path><path fill="#212121" d="M24,26v-3c0-6.675-5.945-11.961-12.829-10.852C5.812,13.011,2,17.857,2,23.284L2,24v2v0.142	c0,6.553,4.777,11.786,10.868,11.858c5.092,0.06,9.389-3.344,10.707-7.999h-1.028c-0.62,0-1.182,0.355-1.451,0.913	c-1.739,3.595-5.789,5.862-10.228,4.842C6.776,34.815,4,30.981,4,26.783V26H24z M4,23.71c0-4.708,2.804-8.557,6.924-9.478	C16.798,12.92,22,17.352,22,23v1H4V23.71z"></path>
+                            </svg></i>
+                        <p>Express</p>
+                    </li> -->
+                    <!-- <li>
+                        <i class="fab fa-docker"></i>
+                        <p>DOCKER</p>
+                    </li> -->
+                </ul>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!-- SERVICE SECTION DESIGN -->
+    <section class="services" id="services">
+        <h2 class="heading">Work Experience<span></span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <img src="img/stonehaus.png" style="height: 200px;" alt="">
+                <!-- <i class="fa-solid fa-code"></i> -->
+                <h3>Stonehaus Realty </h3>
+                <p>Stonehaus Realty is a real state business application which help buyers and sellers find each other through there highly trained team of agents.</p>
+                <a href="https://dev.hausleads.com/" target="_blank" class="btn">Visit Website</a>
+            </div>
+
+            <div class="services-box">
+                <img src="img/revenue.png" alt="" style="height: 200px;">
+                <!-- <i class="fa-solid fa-palette"></i> -->
+                <h3>Revenue Share</h3>
+                <p>Revenue Share application helps company to distribute commissions to agents in the hierarchy as a result of cracking a deal by an agent.</p>
+                <a href="https://test.hausshare.ca/" target="_blank" class="btn">Visit Website</a>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION DESIGN -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest Projects<span></span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/videoStreamcopied.png"  alt="">
+                <div class="portfolio-layer">
+                    <h4>VideoStream</h4>
+                    <p>VideoStream helps to upload videos using multer and used streams for watching videos by buffering it in chunks of data.</p>
+                    <a href="https://github.com/Sanjeev9630/videoStream-multer" target="_blank" class="btn">Code</a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <!-- <img src="img/socketapp.png" > -->
+                <img src="img/socketappcopied.png" style="height: 370px;" alt="">
+                <div class="portfolio-layer">
+                    <h4>RealChat</h4>
+                    <p>RealChat facilitate instant messaging between multiple users connected in real-time, developed using Nodejs & Socket.io</p>
+                    <a href="https://github.com/Sanjeev9630/RealChat-socket.io" target="_blank" class="btn">Code</a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/shopecopied.png" alt=""  style="height: 370px;">
+                <div class="portfolio-layer">
+                    <h4>E-Shope</h4>
+                    <p>E-Shop helps customer to buy different products as per there need, used Nodejs for backend development and MongoDB for storing users & products infomation.</p>
+                    <a href="https://github.com/Sanjeev9630/E-Commerce-Full-Stack-App" target="_blank" class="btn">Code</a>
+                </div>
+            </div>
+            <!-- <div class="portfolio-box">
+                <img src="img/img44.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="https://github.com/Sanjeev9630" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div> -->
+            <!-- <div class="portfolio-box">
+                <img src="img/img66.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="https://github.com/Sanjeev9630" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/img66.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="https://github.com/Sanjeev9630" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION DESIGN -->
+    <section class="home" id="contact">
+    <div class="home-content" >
+        <h2 class="heading">Education</h2>
+        <p style="font-size: 40px;" >Priyadarshini College of Engineering</p>
+            <p>Bachelor of Engineering in Computer Technology</p>
+            <p>August 2018 - July 2022</p>
+            <h2 class="heading" style="margin-top: 70px;">Reach Out to Me ! <span></span></h2>
+            <div class="social-media" style="margin-left: 230px;">
+                <a href="https://github.com/Sanjeev9630" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/sanjeev-sharma-13681b292" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:shsanjeev2000@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel://919607747239"><i class="fa-solid fa-phone"></i></a>
+            </div>
+    </div>
+    
+</section>
+    
+    <!-- FOOTER DESIGN -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | shsanjeev2000@gmail.com</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- SCROLL REVEAL JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- TYPED JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- MAIN JS  -->
+    <script src="JS/main.js"></script>
+</body>
+</html>
+
+
+
